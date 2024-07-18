@@ -1,0 +1,127 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:focus, a:active
+{
+	outline: none;
+}
+
+body
+{
+	background-color: black;
+	background-image: url("fond2.jpg");
+	background-repeat: no-repeat;
+	width: 1000px;
+	margin: auto;
+}
+
+	body #page
+	{
+		width: 1000px;
+		margin-top: 20px;
+	}
+	
+		body #page #header
+		{
+			width: 650px;
+			height: 300px;
+			background-image: url("header.png");
+			float: left;
+		}
+		
+		body #page #calendrier
+		{
+			width: 348px;
+			height: 298px;
+			border: 1px solid white;
+		}
+		
+		body #page #menu
+		{
+			height: 140px;
+			clear: both;
+		}
+		
+		body #page #menu ul li
+			{
+				display: block;
+				width: 200px;
+				height: 140px;
+				float: left;
+			}
+			
+				body #page #menu ul li a
+				{
+					display: block;
+					width: 200px;
+					height: 140px;
+				}
+				
+				body #page #menu #menuAccueil
+				{
+					background-image: url("menuAccueil.jpg");
+				}
+				
+				body #page #menu #menuGalerie
+				{
+					background-image: url("menuGalerie.jpg");
+				}
+				
+				body #page #menu #menuTutoriaux
+				{
+					background-image: url("menuTutoriaux.jpg");
+				}
+				
+				body #page #menu #menuHistorique
+				{
+					background-image: url("menuHistorique.jpg");
+				}
+				
+				body #page #menu #menuLien
+				{
+					background-image: url("menuLien.jpg");
+				}
+				
+				/*body #page #menu ul li a:hover
+				{
+					background-position: -200px 0px;
+				}*/
+				
+				body #page #menu #menuAccueil:hover
+				{
+					background-image: url("menuAccueil.gif");
+				}
+				
+				body #page #menu #menuGalerie:hover
+				{
+					background-image: url("menuGalerie.gif");
+				}
+				
+				body #page #menu #menuTutoriaux:hover
+				{
+					background-image: url("menuTutoriaux.gif");
+				}
+				
+				body #page #menu #menuHistorique:hover
+				{
+					background-image: url("menuHistorique.gif");
+				}
+				
+				body #page #menu #menuLien:hover
+				{
+					background-image: url("menuLien.gif");
+				}
